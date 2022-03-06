@@ -9,6 +9,7 @@
 	 "v 1.1, By PikkaBird, House edits "
 	 "chopped out by reldred" 00
 
+   // Old Houses sprite sheet, water tank and hills hoist first. 
     2 * 4	 01 07 04 01
     3 ./pineapplehouses00.png  8bpp   66    8   64   54  -31  -23 normal chunked
     4 ./pineapplehouses00.png  8bpp  146    8   64   54  -31  -23 normal chunked
@@ -67,11 +68,13 @@
 
    18 * 7	 03 07 01 04 00 04 00
 
+   // Church replacement sprite
    19 * 5	 0A 01 01 FC 11
    20 ./pineapplehouses00.png  8bpp  658    8   64   55  -31  -24 normal chunked
    21 * 5	 0A 01 01 9B 07
    22 ./pineapplehouses00.png  8bpp  754    8    1    1   -1   -1 normal chunked
 
+   // Pub and Swimming Pool Sprite Sheet
    23 * 4	 01 07 02 02
    24 ./pineapplehouses00.png  8bpp    2   88   64   67  -31  -36 normal
    25 ./pineapplehouses00.png  8bpp   82   88   64   67  -31  -36 normal chunked
@@ -94,16 +97,20 @@
    31 * 7	 03 07 01 0D 00 01 00
 
    // Swimming Pool
-   32 * 9	 00 07 
-             02
+   32 * 7	 00 07 
+             05
              01 
              09 
              08 59
+             13 \wx401F // Set availibility mask
              18 07
+             21 \w0000
+             22 \w9999
 
    33 * 7	 03 07 01 09 00 02 00
    34 * 20	 04 0B 9F 01 01 "ÜSwimming Pool" 00
 
+   // Large Parks Sprite Sheet
    35 * 4	 01 07 04 01
    36 ./pineapplehouses00.png  8bpp  530   88   64   80  -31  -49 normal
    37 ./pineapplehouses00.png  8bpp  610   88   64   80  -31  -49 normal chunked
@@ -114,6 +121,7 @@
    42 * 17	 02 07 07 00 54 0F 00 00 02 80 00 80 00 00 10 10 10
    43 * 17	 02 07 08 00 54 0F 00 00 03 80 00 80 00 00 10 10 10
 
+   // Large Park 1
    44 * 20	 00 07 
              06
              01 
@@ -135,6 +143,7 @@
 
    47 * 7	 03 07 01 06 00 06 00
 
+   // Large Park 2
    48 * 20	 00 07 
              06 
              01 
@@ -155,6 +164,7 @@
    50 * 7	 03 07 01 07 00 07 00
    51 * 7	 03 07 01 08 00 08 00
 
+   // Modern Houses Spritesheet
    52 * 4	 01 07 06 01
    53 ./pineapplehouses00.png  8bpp  370  184   64   54  -31  -23 normal chunked
    54 ./pineapplehouses00.png  8bpp  450  184   66   54  -32  -23 normal chunked
